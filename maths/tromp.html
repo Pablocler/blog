@@ -48,6 +48,9 @@
             On veut calculer le volume totale de la trompette. Il faut alors intégrer la coupe du volume le long de la longueur, en intégrant on obtient 
             \[V = \int_1^\infty\pi\frac{1}{x^2}dx=\pi\left[-\frac{1}{x}\right]_1^\infty=\frac{1}{1}=1\]
             Donc le volume est fini, et il vaut 1 ! 
+
+            Pour l'aire c'est un peu plus compliquer, mais on a la formule qui dit que l'aire d'une surface engendrée par une courbe de rotation entre \[x_1\] et \[x_2\] est \[A=2\pi\int_{x_1}^{x^2}2f(x)\sqrt{1+f'(x)}\]. Et donc dans notre cas :
+            \[A=2\pi\int_1^{x_1}\frac{1}{x}\sqrt{1+(-\frac{1}{x^2})^2}dx>2\pi\int_1^{x_1}\frac{dx}{x}=2\pi\ln(x_1)\]
     </section>
     
     <footer>
